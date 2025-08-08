@@ -4,7 +4,6 @@ function adicionarAmigo() {
     const input = document.getElementById("amigo");
     const nome = input.value.trim();
 
-    // Verifica se o nome é válido
     if (!nome) {
         alert("Digite um nome válido para adicionar.");
         return;
